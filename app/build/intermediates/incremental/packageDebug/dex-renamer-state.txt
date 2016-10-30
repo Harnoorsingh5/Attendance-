@@ -1,0 +1,7 @@
+#Sat Oct 29 17:32:43 IST 2016
+base.0=C\:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0ee93c3083cbe669fa612a24a7d22d504fe26478
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a5179cc808a194026fa7aa5525f9f0529ade1739\\classes.dex
+base.1=C\:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a5179cc808a194026fa7aa5525f9f0529ade1739
+file.0=C\:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0ee93c3083cbe669fa612a24a7d22d504fe26478\\classes.dex

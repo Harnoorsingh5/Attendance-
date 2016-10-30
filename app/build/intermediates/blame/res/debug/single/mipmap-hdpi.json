@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\hp_on_pressed.png",
+        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\mipmap-hdpi\\hp_on_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\hp_on.png",
+        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\mipmap-hdpi\\hp_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\hp_off_pressed.png",
+        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\mipmap-hdpi\\hp_off_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\hp_off.png",
+        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\mipmap-hdpi\\hp_off.png"
+    }
+]
