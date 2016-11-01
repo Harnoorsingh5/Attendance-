@@ -29,13 +29,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/teacherLogin"
-        android:onClick="teacherLogin"/>
+        />
 
     <Button
         android:id="@+id/teacherSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/teacherSignup"
-        android:onClick="teacherSignup"/>
+        />
 
 </LinearLayout>

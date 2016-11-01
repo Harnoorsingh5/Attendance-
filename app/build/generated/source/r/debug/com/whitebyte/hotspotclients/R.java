@@ -832,9 +832,11 @@ containing a value of this type.
         public static final int action_mode_close_button=0x7f0d0024;
         public static final int activity_chooser_view_content=0x7f0d0025;
         public static final int activity_main=0x7f0d003c;
+        public static final int activity_teacher_class_list=0x7f0d0041;
         public static final int always=0x7f0d0013;
         public static final int beginning=0x7f0d000f;
         public static final int checkbox=0x7f0d002d;
+        public static final int classList=0x7f0d0043;
         public static final int collapseActionView=0x7f0d0014;
         public static final int default_activity_button=0x7f0d0028;
         public static final int dialog=0x7f0d0018;
@@ -875,11 +877,13 @@ containing a value of this type.
         public static final int split_action_bar=0x7f0d001e;
         public static final int submit_area=0x7f0d0039;
         public static final int tabMode=0x7f0d0008;
+        public static final int teacherDetail=0x7f0d0042;
         public static final int teacherLogin=0x7f0d003f;
         public static final int teacherPassword=0x7f0d003e;
+        public static final int teacherSelectClassSubmit=0x7f0d0044;
         public static final int teacherSignup=0x7f0d0040;
         public static final int teacherUsername=0x7f0d003d;
-        public static final int textView1=0x7f0d0041;
+        public static final int textView1=0x7f0d0045;
         public static final int title=0x7f0d002b;
         public static final int top_action_bar=0x7f0d0020;
         public static final int up=0x7f0d0021;
@@ -915,8 +919,9 @@ containing a value of this type.
         public static final int abc_search_view=0x7f040016;
         public static final int abc_simple_decor=0x7f040017;
         public static final int activity_main=0x7f040018;
-        public static final int main=0x7f040019;
-        public static final int support_simple_spinner_dropdown_item=0x7f04001a;
+        public static final int activity_teacher_class_list=0x7f040019;
+        public static final int main=0x7f04001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f04001b;
     }
     public static final class mipmap {
         public static final int hp_off=0x7f030000;

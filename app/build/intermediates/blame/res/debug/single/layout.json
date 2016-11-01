@@ -48,6 +48,10 @@
         "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_teacher_class_list.xml",
+        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\layout\\activity_teacher_class_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },

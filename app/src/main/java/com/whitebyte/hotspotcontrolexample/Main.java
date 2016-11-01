@@ -70,7 +70,7 @@ public class Main extends Activity {
 			Log.d("Name: ", log);
 		}
 
-		// Inserting Teacher Records
+//		 Inserting Teacher Records
 //	    Log.d("Insert: ", "Inserting ..");
 //		db.addTeacherRecord(new Teacher("E2231","abc","CSE-6","qwertyuiop"));
 //		db.addTeacherRecord(new Teacher("E2341","def","CSE-5","asdfghjkl"));
