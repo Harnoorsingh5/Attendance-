@@ -22,6 +22,7 @@ import java.util.List;
 
 public class TeacherClassList extends Activity implements AdapterView.OnItemSelectedListener {
 
+    public final static String EXTRA_MESSAGE = "com.whitebyte.hotspotcontrolexample";
     private Spinner spinnerClass;
     public String item;
 
@@ -68,13 +69,14 @@ public class TeacherClassList extends Activity implements AdapterView.OnItemSele
             @Override
             public void onClick(View view) {
 
-//                Intent intent = new Intent(TeacherClassList.this, TeacherClassList.class);
-//                intent.putExtra("E");
-
 //String[] splitted = line.split(" +");
 //                startActivity(intent);
 
-                    Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(TeacherClassList.this, DetailClass.class);
+                intent.putExtra(EXTRA_MESSAGE ,item);
+                startActivity(intent);
             }
         });
     }

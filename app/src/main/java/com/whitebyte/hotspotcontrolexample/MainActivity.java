@@ -44,16 +44,16 @@ public class MainActivity extends Activity {
 
         db = new WifiDatabaseHandler(this);
 
-        db.addStudentRecord(new Student("34:fc:ef:c5:c5:26","Harry","14BCS1530","CSE-5","P"),"StudentRecord");
-        db.addStudentRecord(new Student("70:77:81:8E:E3:DF","Jassi","14BCS1538","CSE-4","A"),"StudentRecord");
-        db.addStudentRecord(new Student("24:fc:ef:c5:c5:27","Joshi","14BCS1528","CSE-6","P"),"StudentRecord");
+//        db.addStudentRecord(new Student("34:fc:ef:c5:c5:26","Harry","14BCS1530","CSE-5","P"),"StudentRecord");
+//        db.addStudentRecord(new Student("70:77:81:8E:E3:DF","Jassi","14BCS1538","CSE-4","A"),"StudentRecord");
+//        db.addStudentRecord(new Student("24:fc:ef:c5:c5:27","Joshi","14BCS1528","CSE-6","P"),"StudentRecord");
 
 
 //		 Inserting Teacher Records
 //        Log.d("Insert: ", "Inserting ..");
-//        db.addTeacherRecord(new Teacher("E2231","abc","CSE-6,CSE-3","qwertyuiop"));
-//        db.addTeacherRecord(new Teacher("E2341","def","CSE-5","asdfghjkl"));
-//        db.addTeacherRecord(new Teacher("E2342","ghi","CSE-4","zxcvbnm"));
+//        db.addTeacherRecord(new Teacher("E2231","abc","CSE6,CSE3","qwertyuiop"));
+//        db.addTeacherRecord(new Teacher("E2341","def","CSE5","asdfghjkl"));
+//        db.addTeacherRecord(new Teacher("E2342","ghi","CSE4","zxcvbnm"));
 
         teachers = db.getAllTeacherRecord();
 
@@ -67,6 +67,7 @@ public class MainActivity extends Activity {
 //        }
 
         loginButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 teacherusername = teacherUsername.getText().toString();

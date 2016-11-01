@@ -53,6 +53,8 @@
         </activity>
         <activity android:name="com.whitebyte.hotspotcontrolexample.TeacherClassList" />
         <activity android:name="com.whitebyte.hotspotcontrolexample.StudentList" />
+        <activity android:name="com.whitebyte.hotspotcontrolexample.InsertStudentData" />
+        <activity android:name="com.whitebyte.hotspotcontrolexample.DetailClass" />
     </application>
 
 </manifest>

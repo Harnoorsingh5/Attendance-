@@ -4,30 +4,30 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="83220853490134"
+    timestamp="99056445369224"
     token="-7768807520152306439"
-    verifier="MANIFEST_FILE_CHANGE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1097" />
+        duration="1281" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="259" />
+        duration="180" />
     <task
         name="verifier"
-        duration="61" />
+        duration="77" />
 
     <artifact
         location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="83220853490134"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="99056445369224"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
