@@ -8,6 +8,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
@@ -19,9 +20,10 @@ import com.whitebyte.hotspotclients.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TeacherClassList extends Activity {
+public class TeacherClassList extends Activity implements AdapterView.OnItemSelectedListener {
 
     private Spinner spinnerClass;
+    public String item;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,16 +36,22 @@ public class TeacherClassList extends Activity {
         String F_teacherClass = intent.getStringExtra(MainActivity.F_teacherClass);
 
         TextView listTextView = (TextView) findViewById(R.id.teacherDetail);
-        listTextView.setText(F_teacherUsername + " \n " + F_teacherName +" \n ");
-
-        Button goClass = (Button) findViewById(R.id.teacherSelectClassSubmit);
+        listTextView.setText(F_teacherUsername + " \n " + F_teacherName + " \n ");
 
         spinnerClass = (Spinner) findViewById(R.id.classList);
+        // Spinner click listener
+        spinnerClass.setOnItemSelectedListener(this);
+
         // Spinner Drop down elements
+        String [] splitted = F_teacherClass.split(",");
         List<String> list = new ArrayList<String>();
-        list.add(F_teacherClass);
-        list.add("Pta Ni ");
-        list.add("Hje vi ni pta ");
+        for (int i = 0; i<splitted.length; i++) {
+            list.add(splitted[i]);
+        }
+//
+//        list.add(F_teacherClass);
+//        list.add("Pta Ni ");
+//        list.add("Hje vi ni pta ");
 
         // Creating adapter for spinner
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
@@ -54,31 +62,32 @@ public class TeacherClassList extends Activity {
         // attaching data adapter to spinner
         spinnerClass.setAdapter(dataAdapter);
 
-        final String selectedClass = onSpinItemSelect();
 
+        Button goClass = (Button) findViewById(R.id.teacherSelectClassSubmit);
         goClass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), selectedClass , Toast.LENGTH_SHORT ).show();
+
+//                Intent intent = new Intent(TeacherClassList.this, TeacherClassList.class);
+//                intent.putExtra("E");
+
+//String[] splitted = line.split(" +");
+//                startActivity(intent);
+
+                    Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
             }
         });
-
     }
+        @Override
+        public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+            // On selecting a spinner item
+              item = parent.getItemAtPosition(position).toString();
+        }
+        public void onNothingSelected(AdapterView<?> arg0) {
+            // TODO Auto-generated method stub
+        }
 
-//    public void addClassToSpinner(String F_teacherClass) {
-//        spinnerClass = (Spinner) findViewById(R.id.classList);
-//        List<String> list = new ArrayList<String>();
-//        list.add(F_teacherClass);
-//        list.add("Pta Ni ");
-//        list.add("Hje vi ni pta ");
-//
-//        ArrayAdapter<String> classListAdapter = new ArrayAdapter<String>(this,  );
-//        classListAdapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
-//        spinnerClass.setAdapter(classListAdapter);
-//    }
-    public String onSpinItemSelect() {
-        return spinnerClass.getSelectedItem().toString();
-    }
+
 }
 
 

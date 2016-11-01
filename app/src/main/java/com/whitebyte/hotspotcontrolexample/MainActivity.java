@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.whitebyte.hotspotclients.R;
+import com.whitebyte.wifihotspotutils.Student;
 import com.whitebyte.wifihotspotutils.Teacher;
 import com.whitebyte.wifihotspotutils.WifiDatabaseHandler;
 
@@ -42,6 +43,11 @@ public class MainActivity extends Activity {
         teacherPassword = (EditText) findViewById(R.id.teacherPassword);
 
         db = new WifiDatabaseHandler(this);
+
+        db.addStudentRecord(new Student("34:fc:ef:c5:c5:26","Harry","14BCS1530","CSE-5","P"),"StudentRecord");
+        db.addStudentRecord(new Student("70:77:81:8E:E3:DF","Jassi","14BCS1538","CSE-4","A"),"StudentRecord");
+        db.addStudentRecord(new Student("24:fc:ef:c5:c5:27","Joshi","14BCS1528","CSE-6","P"),"StudentRecord");
+
 
 //		 Inserting Teacher Records
 //        Log.d("Insert: ", "Inserting ..");

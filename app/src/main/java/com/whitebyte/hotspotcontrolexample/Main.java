@@ -62,7 +62,8 @@ public class Main extends Activity {
 
 		// Reading all Records
 		Log.d("Reading: ", "Reading all contacts..");
-		List<Student> students = db.getAllStudentRecord();
+		String TableName = "CSE4";
+		List<Student> students = db.getAllStudentRecord(TableName);
 
 		for(Student sd : students) {
 			String log = "Mac: "+sd.getMAC()+ " ,Name: "+ sd.getName() + " ,UID: " + sd.getUID() +",Class: "+sd.getStudentClass()+" ,Atten: " + sd.getAttendance();

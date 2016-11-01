@@ -51,7 +51,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.whitebyte.hotspotcontrolexample.TeacherClassList"></activity>
+        <activity android:name="com.whitebyte.hotspotcontrolexample.TeacherClassList" />
+        <activity android:name="com.whitebyte.hotspotcontrolexample.StudentList"></activity>
     </application>
 
 </manifest>

@@ -52,6 +52,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.whitebyte.hotspotcontrolexample.TeacherClassList" />
+        <activity android:name="com.whitebyte.hotspotcontrolexample.StudentList" />
     </application>
 
 </manifest>
