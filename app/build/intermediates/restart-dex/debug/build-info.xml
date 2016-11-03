@@ -4,36 +4,43 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="123224086602683"
+    timestamp="305023114816788"
     token="-7768807520152306439"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1032" />
+        duration="563" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="61" />
+        duration="55" />
     <task
         name="verifier"
-        duration="14" />
+        duration="10" />
 
     <artifact
         location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="122938258822306"
+        timestamp="302412785201344"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="123224086602683"
+        timestamp="303777707553326"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="305023114816788"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"

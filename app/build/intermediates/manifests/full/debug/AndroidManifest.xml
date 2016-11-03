@@ -15,6 +15,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
 
+    <android:users-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:users-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:users-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -24,7 +28,7 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
         <activity
-            android:name="com.whitebyte.hotspotcontrolexample.Main"
+            android:name="com.whitebyte.hotspotcontrolexample.MatchMAC"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,16 +37,17 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.whitebyte.widgetexample.APWidget" >
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED" />
-            </intent-filter>
+        <!-- <receiver android:name="com.whitebyte.widgetexample.APWidget"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.appwidget.action.APPWIDGET_UPDATE" /> -->
+        <!-- <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED" /> -->
+        <!-- </intent-filter> -->
 
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/appwidget_info" />
-        </receiver>
+
+        <!-- <meta-data -->
+        <!-- android:name="android.appwidget.provider" -->
+        <!-- android:resource="@xml/appwidget_info" /> -->
+        <!-- </receiver> -->
 
         <activity android:name="com.whitebyte.hotspotcontrolexample.MainActivity" >
             <intent-filter>
@@ -55,6 +60,7 @@
         <activity android:name="com.whitebyte.hotspotcontrolexample.StudentList" />
         <activity android:name="com.whitebyte.hotspotcontrolexample.InsertStudentData" />
         <activity android:name="com.whitebyte.hotspotcontrolexample.DetailClass" />
+        <activity android:name="com.whitebyte.hotspotcontrolexample.TeacherSignUp" />
     </application>
 
 </manifest>

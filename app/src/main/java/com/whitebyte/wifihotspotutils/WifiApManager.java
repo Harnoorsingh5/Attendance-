@@ -22,9 +22,11 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.InetAddress;
 import java.util.ArrayList;
+import java.util.List;
 
 import android.content.Context;
 import android.net.wifi.WifiConfiguration;
+import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Handler;
 import android.util.Log;
@@ -76,7 +78,6 @@ public class WifiApManager {
 			if (tmp >= 10) {
 				tmp = tmp - 10;
 			}
-
 			return WIFI_AP_STATE.class.getEnumConstants()[tmp];
 		} catch (Exception e) {
 			Log.e(this.getClass().toString(), "", e);
@@ -122,6 +123,31 @@ public class WifiApManager {
 			return false;
 		}
 	}
+
+	/*
+
+		REMOVE NETWORK
+
+	 */
+
+//	public void getNetworkID() {
+//
+//		List<WifiConfiguration> list = mWifiManager.getConfiguredNetworks();
+//		for (WifiConfiguration i : list) {
+//
+//			Log.v("#######NETWORK ID  ", String.valueOf(i.networkId) + "  ");
+//			if(i.networkId == mWifiManager.getConnectionInfo().getNetworkId() ) {
+//				mWifiManager.removeNetwork(i.networkId);
+//				mWifiManager.saveConfiguration();
+//			}
+//		}
+//			int networkid = mWifiManager.getConnectionInfo().getNetworkId();
+//		removeNetwork(networkid);
+//
+//	public void removeNetwork(int netID) {
+//		mWifiManager.removeNetwork(netID);
+//	}
+
 
 	/**
 	 * Gets a list of the clients connected to the Hotspot, reachable timeout is 300
@@ -181,7 +207,7 @@ public class WifiApManager {
 					}
 				}
 
-				// Get a handler that can be used to post to the main thread
+				// Get a handler that can be used to post to the activity_match_mac thread
 				Handler mainHandler = new Handler(context.getMainLooper());
 				Runnable myRunnable = new Runnable() {
 					@Override

@@ -20,12 +20,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.Activity;
-import android.content.Context;
+import android.content.Intent;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.whitebyte.hotspotclients.R;
 import com.whitebyte.wifihotspotutils.ClientScanResult;
@@ -35,60 +37,47 @@ import com.whitebyte.wifihotspotutils.Teacher;
 import com.whitebyte.wifihotspotutils.WifiApManager;
 import com.whitebyte.wifihotspotutils.WifiDatabaseHandler;
 
-public class Main extends Activity {
+public class MatchMAC extends Activity {
 	TextView textView1;
-	WifiApManager wifiApManager; 
+	WifiApManager wifiApManager;
+	List<Student> students;
+	WifiDatabaseHandler db;
+	String selectedClass;
+	String latestColumnName;
 
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
+		setContentView(R.layout.activity_match_mac);
 
 		textView1 = (TextView) findViewById(R.id.textView1);
 		wifiApManager = new WifiApManager(this);
 
-		WifiDatabaseHandler db = new WifiDatabaseHandler(this);
+		db = new WifiDatabaseHandler(this);
+
+		Intent intent = getIntent();
+		selectedClass = intent.getStringExtra(DetailClass.EXTRA_MESSAGE2);
+		latestColumnName = intent.getStringExtra(DetailClass.EXTRA_MESSAGE2a);
+
+
 		/**
 		          * CRUD Operations * */
 
-		// Inserting Student Records
-//		Log.d("Insert: ", "Inserting ..");
-//		db.addStudentRecord(new Student("34:fc:ef:c5:c5:26","Harry","14BCS1530","CSE-5","P"));
-//		db.addStudentRecord(new Student("70:77:81:8E:E3:DF","Jassi","14BCS1538","CSE-4","A"));
-//		db.addStudentRecord(new Student("24:fc:ef:c5:c5:27","Joshi","14BCS1528","CSE-6","P"));
-//
-//		//db.sDeleteRecord(new Student("34:fc:ef:c5:c5:27"));
-
 		// Reading all Records
 		Log.d("Reading: ", "Reading all contacts..");
-		String TableName = "CSE4";
-		List<Student> students = db.getAllStudentRecord(TableName);
+		students = db.getAllMacOfStudent(selectedClass);
+
+		scan();
+
+		students = db.getAllStudentRecord(selectedClass);
+
 
 		for(Student sd : students) {
 			String log = "Mac: "+sd.getMAC()+ " ,Name: "+ sd.getName() + " ,UID: " + sd.getUID() +",Class: "+sd.getStudentClass()+" ,Atten: " + sd.getAttendance();
 			// Writing Contacts to log
 			Log.d("Name: ", log);
 		}
-
-//		 Inserting Teacher Records
-//	    Log.d("Insert: ", "Inserting ..");
-//		db.addTeacherRecord(new Teacher("E2231","abc","CSE-6","qwertyuiop"));
-//		db.addTeacherRecord(new Teacher("E2341","def","CSE-5","asdfghjkl"));
-//		db.addTeacherRecord(new Teacher("E2342","ghi","CSE-4","zxcvbnm"));
-
-		// Reading all Records
-		Log.d("Reading: ", "Reading all contacts..");
-		List<Teacher> teachers = db.getAllTeacherRecord();
-
-		for(Teacher teacher : teachers) {
-			String log = "T_UID: "+teacher.getT_uid()+" ,Name: " + teacher.getT_name() + " ,Class: " + teacher.getT_classteach()+", Password: "+teacher.getT_password();
-			// Writing Contacts to log
-			Log.d("Name: ", log);
-		}
-
-		scan();
-
 	}
 
 	private void scan() {
@@ -105,7 +94,29 @@ public class Main extends Activity {
 					textView1.append("Device: " + clientScanResult.getDevice() + "\n");
 					textView1.append("HWAddr: " + clientScanResult.getHWAddr() + "\n");
 					textView1.append("isReachable: " + clientScanResult.isReachable() + "\n");
+
+					for(Student sd : students) {
+						if(clientScanResult.getHWAddr().equals(sd.getMAC())) {
+							db.markAttendance(selectedClass, latestColumnName, sd.getMAC());
+
+							List<Student> tempStudent = db.tempCheckAtt(selectedClass, sd.getMAC());
+							for(Student sd1 : tempStudent) {
+								String log = "Mac: "+sd1.getMAC()+ " ,Name: "+ sd1.getName() + " ,UID: " + sd1.getUID() +",Class: "+sd1.getStudentClass()+" ,Atten: " + sd1.getAttendance();
+								// Writing Contacts to log
+								Log.d("@@@@@@Name: ", log);
+
+							}
+
+
+							Toast.makeText(getApplicationContext(), sd.getName() + " oye hoye kya baat ae ", Toast.LENGTH_SHORT).show();
+						}
+						else {
+							Toast.makeText(getApplicationContext(), sd.getName() + " Registration ta kralo kanjro ", Toast.LENGTH_SHORT).show();
+						}
+
+					}
 				}
+
 			}
 		});
 	}

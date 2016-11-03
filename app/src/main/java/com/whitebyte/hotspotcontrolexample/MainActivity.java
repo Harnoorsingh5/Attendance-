@@ -98,7 +98,8 @@ public class MainActivity extends Activity {
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this, TeacherSignUp.class);
+                startActivity(intent);
             }
         });
     }
