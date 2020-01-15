@@ -17,8 +17,15 @@
 package com.whitebyte.wifihotspotutils;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.lang.reflect.Method;
 import java.net.InetAddress;
 import java.util.ArrayList;
@@ -32,7 +39,7 @@ import android.os.Handler;
 import android.util.Log;
 
 public class WifiApManager {
-	private final WifiManager mWifiManager;
+	public final WifiManager mWifiManager;
 	private Context context;
 
 	public WifiApManager(Context context) {
@@ -46,25 +53,27 @@ public class WifiApManager {
 	 * AP mode, update the new configuration
 	 * Note that starting in access point mode disables station
 	 * mode operation
+	 *
 	 * @param wifiConfig SSID, security and channel details as part of WifiConfiguration
 	 * @return {@code true} if the operation succeeds, {@code false} otherwise
 	 */
-//	public boolean setWifiApEnabled(WifiConfiguration wifiConfig, boolean enabled) {
-//		try {
-//			if (enabled) { // disable WiFi in any case
-//				mWifiManager.setWifiEnabled(false);
-//			}
-//
-//			Method method = mWifiManager.getClass().getMethod("setWifiApEnabled", WifiConfiguration.class, boolean.class);
-//			return (Boolean) method.invoke(mWifiManager, wifiConfig, enabled);
-//		} catch (Exception e) {
-//			Log.e(this.getClass().toString(), "", e);
-//			return false;
-//		}
-//	}
+	public boolean setWifiApEnabled(WifiConfiguration wifiConfig, boolean enabled) {
+		try {
+			if (enabled) { // disable WiFi in any case
+				mWifiManager.setWifiEnabled(false);
+			}
+
+			Method method = mWifiManager.getClass().getMethod("setWifiApEnabled", WifiConfiguration.class, boolean.class);
+			return (Boolean) method.invoke(mWifiManager, wifiConfig, enabled);
+		} catch (Exception e) {
+			Log.e(this.getClass().toString(), "", e);
+			return false;
+		}
+	}
 
 	/**
 	 * Gets the Wi-Fi enabled state.
+	 *
 	 * @return {@link WIFI_AP_STATE}
 	 * @see #//isWifiApEnabled()
 	 */
@@ -72,7 +81,7 @@ public class WifiApManager {
 		try {
 			Method method = mWifiManager.getClass().getMethod("getWifiApState");
 
-			int tmp = ((Integer)method.invoke(mWifiManager));
+			int tmp = ((Integer) method.invoke(mWifiManager));
 
 			// Fix for Android 4
 			if (tmp >= 10) {
@@ -98,20 +107,22 @@ public class WifiApManager {
 
 	/**
 	 * Gets the Wi-Fi AP Configuration.
+	 *
 	 * @return AP details in {@link WifiConfiguration}
 	 */
-//	public WifiConfiguration getWifiApConfiguration() {
-//		try {
-//			Method method = mWifiManager.getClass().getMethod("getWifiApConfiguration");
-//			return (WifiConfiguration) method.invoke(mWifiManager);
-//		} catch (Exception e) {
-//			Log.e(this.getClass().toString(), "", e);
-//			return null;
-//		}
-//	}
+	public WifiConfiguration getWifiApConfiguration() {
+		try {
+			Method method = mWifiManager.getClass().getMethod("getWifiApConfiguration");
+			return (WifiConfiguration) method.invoke(mWifiManager);
+		} catch (Exception e) {
+			Log.e(this.getClass().toString(), "", e);
+			return null;
+		}
+	}
 
 	/**
 	 * Sets the Wi-Fi AP Configuration.
+	 *
 	 * @return {@code true} if the operation succeeded, {@code false} otherwise
 	 */
 	public boolean setWifiApConfiguration(WifiConfiguration wifiConfig) {
@@ -151,18 +162,20 @@ public class WifiApManager {
 
 	/**
 	 * Gets a list of the clients connected to the Hotspot, reachable timeout is 300
-	 * @param onlyReachables {@code false} if the list should contain unreachable (probably disconnected) clients, {@code true} otherwise
+	 *
+	 * @param onlyReachables  {@code false} if the list should contain unreachable (probably disconnected) clients, {@code true} otherwise
 	 * @param finishListener, Interface called when the scan method finishes
 	 */
 	public void getClientList(boolean onlyReachables, FinishScanListener finishListener) {
-		getClientList(onlyReachables, 300, finishListener );
+		getClientList(onlyReachables, 300, finishListener);
 	}
 
 	/**
-	 * Gets a list of the clients connected to the Hotspot 
-	 * @param onlyReachables {@code false} if the list should contain unreachable (probably disconnected) clients, {@code true} otherwise
+	 * Gets a list of the clients connected to the Hotspot
+	 *
+	 * @param onlyReachables   {@code false} if the list should contain unreachable (probably disconnected) clients, {@code true} otherwise
 	 * @param reachableTimeout Reachable Timout in miliseconds
-	 * @param finishListener, Interface called when the scan method finishes 
+	 * @param finishListener,  Interface called when the scan method finishes
 	 */
 	public void getClientList(final boolean onlyReachables, final int reachableTimeout, final FinishScanListener finishListener) {
 
@@ -172,18 +185,13 @@ public class WifiApManager {
 
 				BufferedReader br = null;
 				final ArrayList<ClientScanResult> result = new ArrayList<ClientScanResult>();
-				
+
 				try {
 					br = new BufferedReader(new FileReader("/proc/net/arp"));
 					String line;
 					while ((line = br.readLine()) != null) {
 						String[] splitted = line.split(" +");
-//						Log.v("Splitted info////////",splitted[0]);
-//						Log.v("Splitted info////////",splitted[1]);
-//						Log.v("Splitted info////////",splitted[2]);
-//						Log.v("Splitted info////////",splitted[3]);
-//						Log.v("Splitted info////////",splitted[4]);
-//						Log.v("Splitted info////////",splitted[5]);
+						Log.v("###arp  ", line);
 						if ((splitted != null) && (splitted.length >= 4)) {
 							// Basic sanity check
 							String mac = splitted[3];
@@ -221,5 +229,130 @@ public class WifiApManager {
 
 		Thread mythread = new Thread(runnable);
 		mythread.start();
+	}
+
+	public void removeDevice(String ip) {
+
+//		try {
+		//Runtime.getRuntime().exec("/arp/chmod 777");
+//			Process process = Runtime.getRuntime().exec("arp -d " + ip);
+//			BufferedReader in = new BufferedReader(new InputStreamReader(process.getInputStream()));
+//			process.getInputStream();
+//			Log.v("&&&&&", String.valueOf(in));
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//		BufferedReader	br = null;
+//
+//		String line;
+//		try {
+//			br = new BufferedReader(new FileReader("/proc/net/arp"));
+//			while ((line = br.readLine()) != null) {
+//				Log.v("###arp  ", line);
+//		}
+//		List<WifiConfiguration> list = this.mWifiManager.getConfiguredNetworks();
+//		setWifiApConfiguration((WifiConfiguration) list);
+//		WifiConfiguration wf = getWifiApConfiguration();
+//		if(wf!=null) {
+//			Log.e("removed : hoooaaaa ", String.valueOf(wf));
+//
+//			for (WifiConfiguration i : wf) {
+//				mWifiManager.removeNetwork(i.networkId);
+//				Log.e("removed : ", String.valueOf(i.networkId));
+//				mWifiManager.saveConfiguration();
+		//}
+
+
+		try {
+//			String fileName = "mewFile";
+			File inFile = new File("/proc/net/arp");
+			//Construct the new file that will later be renamed to the original filename.
+//			File tempFile = new File(inFile.getAbsolutePath() + fileName + ".tmp");
+
+//			if(tempFile==null)
+//				tempFile.createNewFile();
+//
+			File outputDir = context.getCacheDir(); // context being the Activity pointer
+			File outputFile = File.createTempFile("arpNewFile", "tmp", outputDir);
+
+			BufferedReader br = new BufferedReader(new FileReader("/proc/net/arp"));
+			PrintWriter pw = new PrintWriter(new FileWriter(outputFile));
+
+			BufferedReader outbr = new BufferedReader((new FileReader(outputFile)));
+
+			String line;
+			String IP;
+			String str;
+			while ((line = br.readLine()) != null) {
+				Log.v("####", line);
+				String[] splitted = line.split(" +");
+
+				IP = splitted[0];
+				if (IP.equals(ip)) {
+					continue;
+				} else {
+					pw.println(line);
+					//Log.v("####ARP ",line);
+					pw.flush();
+				}
+
+			}
+			while ((line = outbr.readLine()) != null) {
+				Log.e("####OUT", line);
+			}
+
+			pw.close();
+			br.close();
+
+			File appDir = new File("/proc/net");
+			if (appDir.exists()) {
+				String[] children = appDir.list();
+				for (String c : children) {
+					File f = new File(c);
+					Log.e("file check to delete: ",c);
+					if (c.equals("arp")) {
+						//f.delete();
+						f = new File(c + "pppp");
+						f.createNewFile();
+						Log.e("deleted arp ", c);
+						break;
+					}
+				}
+			}
+			if (appDir.exists()) {
+				String[] children = appDir.list();
+				for (String c : children) {
+					File f = new File(c);
+					Log.e("file check to delete: ",c);
+//					if (c.equals("arp")) {
+//						f.delete();
+//						Log.e("deleted arp ", c);
+//						break;
+//					}
+				}
+			}
+				//Delete the original file
+//				if (!inFile.delete()) {
+//					Log.v("Could not delete file", "####");
+//					//return;
+//				}
+
+				//Rename the new file to the filename the original file had.
+				if (!outputFile.renameTo(inFile))
+					Log.v("Could not rename file", "###");
+
+				outbr = new BufferedReader((new FileReader(inFile)));
+
+
+				while ((line = outbr.readLine()) != null) {
+					Log.e("####OUT_AFTER", line);
+				}
+
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }

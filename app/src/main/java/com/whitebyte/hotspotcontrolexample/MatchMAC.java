@@ -16,26 +16,25 @@
 
 package com.whitebyte.hotspotcontrolexample;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.Intent;
-import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.whitebyte.hotspotclients.R;
 import com.whitebyte.wifihotspotutils.ClientScanResult;
 import com.whitebyte.wifihotspotutils.FinishScanListener;
 import com.whitebyte.wifihotspotutils.Student;
-import com.whitebyte.wifihotspotutils.Teacher;
 import com.whitebyte.wifihotspotutils.WifiApManager;
 import com.whitebyte.wifihotspotutils.WifiDatabaseHandler;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MatchMAC extends Activity {
 	TextView textView1;
@@ -96,8 +95,44 @@ public class MatchMAC extends Activity {
 					textView1.append("isReachable: " + clientScanResult.isReachable() + "\n");
 
 					for(Student sd : students) {
-						if(clientScanResult.getHWAddr().equals(sd.getMAC())) {
+						if(clientScanResult.getHWAddr().equals(sd.getMAC()) && clientScanResult.isReachable()) {
 							db.markAttendance(selectedClass, latestColumnName, sd.getMAC());
+
+							//wifiApManager.removeDevice(clientScanResult.getIpAddr());
+
+							TableRow.LayoutParams  params1=new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT,1.0f);
+							TableRow.LayoutParams params2=new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT);
+							TableLayout tableLayout=(TableLayout) findViewById(R.id.tableLayout);
+
+							TableRow rowColumnName = new TableRow(getApplicationContext());
+
+							TextView macColumnName = new TextView(getApplicationContext());
+							TextView uidColumnName = new TextView(getApplicationContext());
+							TextView nameColumnName = new TextView(getApplicationContext());
+							TextView attendanceColumnName = new TextView(getApplicationContext());
+
+							macColumnName.setText("MAC ADDRESS "+ "  ");
+							uidColumnName.setText("UID " + "  ");
+							nameColumnName.setText("NAME " + "  ");
+							//attendanceColumnName.setText(DetailClass.columnName + "  ");
+
+							macColumnName.setLayoutParams(params1);
+							uidColumnName.setLayoutParams(params1);
+							nameColumnName.setLayoutParams(params1);
+							//attendanceColumnName.setLayoutParams(params1);
+
+							rowColumnName.addView(macColumnName);
+							rowColumnName.addView(uidColumnName);
+							rowColumnName.addView(nameColumnName);
+							//rowColumnName.addView(attendanceColumnName);
+
+
+							attendanceColumnName.setText(DetailClass.columnName + "  ");
+							attendanceColumnName.setLayoutParams(params1);
+							rowColumnName.addView(attendanceColumnName);
+
+							rowColumnName.setLayoutParams(params2);
+							tableLayout.addView(rowColumnName);
 
 							List<Student> tempStudent = db.tempCheckAtt(selectedClass, sd.getMAC());
 							for(Student sd1 : tempStudent) {
@@ -105,14 +140,40 @@ public class MatchMAC extends Activity {
 								// Writing Contacts to log
 								Log.d("@@@@@@Name: ", log);
 
+									//Creating new tablerows and textviews
+									TableRow row = new TableRow(getApplicationContext());
+
+									TextView mac = new TextView(getApplicationContext());
+									TextView uid = new TextView(getApplicationContext());
+									TextView name = new TextView(getApplicationContext());
+									TextView attendance = new TextView(getApplicationContext());
+
+									//setting the text
+									mac.setText(sd1.getMAC() + "  ");
+									uid.setText(sd1.getUID() + "  ");
+									name.setText(sd1.getName() + "  ");
+									attendance.setText(sd1.getAttendance() + "  ");
+
+									mac.setLayoutParams(params1);
+									uid.setLayoutParams(params1);
+									name.setLayoutParams(params1);
+									attendance.setLayoutParams(params1);
+
+									//the textviews have to be added to the row created
+									row.addView(mac);
+									row.addView(uid);
+									row.addView(name);
+									row.addView(attendance);
+									Log.e("EEEEEE:", String.valueOf(attendance));
+									row.setLayoutParams(params2);
+									tableLayout.addView(row);
+
+
 							}
-
-
-							Toast.makeText(getApplicationContext(), sd.getName() + " oye hoye kya baat ae ", Toast.LENGTH_SHORT).show();
 						}
-						else {
-							Toast.makeText(getApplicationContext(), sd.getName() + " Registration ta kralo kanjro ", Toast.LENGTH_SHORT).show();
-						}
+//						else {
+//							Toast.makeText(getApplicationContext(), sd.getName() + " Registration ta kralo kanjro ", Toast.LENGTH_SHORT).show();
+//						}
 
 					}
 				}

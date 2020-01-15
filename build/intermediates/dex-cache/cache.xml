@@ -3,39 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jar="/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-19.1.0_8d2b9f45698e8eb06f2ef6c2044ab7614a8d2b58\classes.dex" />
+        <dex dex="/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-19.1.0_5776de24b0c52245aa71555f96fe1fe8b81ced3e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="13b78d8eaa1a8895d08e9eaf2c57cfff5ac844e6">
-        <dex dex="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0ee93c3083cbe669fa612a24a7d22d504fe26478\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="/home/harnoor/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_7541db917baa506c0dd564574dda219c7099e134\classes.dex" />
+        <dex dex="/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_5085431ff6d68fa3050e63768e3f911f1ea3b26b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="0b91c992c0afb290bba749f1271a0a630a845f78">
-        <dex dex="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a5179cc808a194026fa7aa5525f9f0529ade1739\classes.dex" />
+        sha1="b342a465d6142c44af9493066b491d490ee715bc">
+        <dex dex="/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4d27793bd11fd3a3a226e9b6f105033231abdd12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a8a76e0b3a4c80fd6279df895096791486c493ec">
+        <dex dex="/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_45c41f1c57598de99945211742c42a0708c9fc29/classes.dex" />
     </item>
 
 </items>

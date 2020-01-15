@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 892
                 },
                 "from": {
-                    "file": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-v11\\values.xml",
+                    "file": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 1704
                 },
                 "from": {
-                    "file": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-v11\\values.xml",
+                    "file": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 2528
                 },
                 "from": {
-                    "file": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-v11\\values.xml",
+                    "file": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -75,7 +75,7 @@
                     "endOffset": 3382
                 },
                 "from": {
-                    "file": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-v11\\values.xml",
+                    "file": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -95,7 +95,7 @@
                     "endOffset": 3495
                 },
                 "from": {
-                    "file": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-v11\\values.xml",
+                    "file": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 4,
@@ -114,7 +114,7 @@
                     "endOffset": 3590
                 },
                 "from": {
-                    "file": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-v11\\values.xml",
+                    "file": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 4,
@@ -133,7 +133,7 @@
                     "endOffset": 3707
                 },
                 "from": {
-                    "file": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-v11\\values.xml",
+                    "file": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 4,
@@ -152,7 +152,7 @@
                     "endOffset": 3832
                 },
                 "from": {
-                    "file": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-v11\\values.xml",
+                    "file": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 4,

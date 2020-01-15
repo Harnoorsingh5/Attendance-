@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.whitebyte.hotspotclients"
     android:installLocation="internalOnly"
     android:versionCode="1"
@@ -19,14 +20,11 @@
     <android:users-permission android:name="android.permission.READ_PHONE_STATE" />
     <android:users-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
-        android:icon="@drawable/icon"
+        android:icon="@drawable/logo"
         android:label="@string/app_name">
+
         <activity
             android:name="com.whitebyte.hotspotcontrolexample.MatchMAC"
             android:label="@string/app_name">
@@ -60,7 +58,8 @@
         <activity android:name="com.whitebyte.hotspotcontrolexample.StudentList" />
         <activity android:name="com.whitebyte.hotspotcontrolexample.InsertStudentData" />
         <activity android:name="com.whitebyte.hotspotcontrolexample.DetailClass" />
-        <activity android:name="com.whitebyte.hotspotcontrolexample.TeacherSignUp"></activity>
+        <activity android:name="com.whitebyte.hotspotcontrolexample.TeacherSignUp" />
+
     </application>
 
 </manifest>

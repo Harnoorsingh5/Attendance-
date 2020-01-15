@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\hp_off.png",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\mipmap-xxxhdpi\\hp_off.png"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/hp_off_pressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/mipmap-xxxhdpi/hp_off_pressed.png"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\hp_on_pressed.png",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\mipmap-xxxhdpi\\hp_on_pressed.png"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/hp_on.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/mipmap-xxxhdpi/hp_on.png"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\hp_on.png",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\mipmap-xxxhdpi\\hp_on.png"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/hp_off.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/mipmap-xxxhdpi/hp_off.png"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\hp_off_pressed.png",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\mipmap-xxxhdpi\\hp_off_pressed.png"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/hp_on_pressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/mipmap-xxxhdpi/hp_on_pressed.png"
     }
 ]

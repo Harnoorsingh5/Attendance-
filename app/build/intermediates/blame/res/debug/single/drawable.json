@@ -1,82 +1,130 @@
 [
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/splash.PNG",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/splash.PNG"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/custsignupbutton.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/custsignupbutton.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_hp_on.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\drawable\\bt_hp_on.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_light.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_search_dropdown_light.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_search_dropdown_light.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_ic_clear.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_ic_clear.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/loginbuttonpressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/loginbuttonpressed.png"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/loginbutton.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/loginbutton.png"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_search_dropdown_dark.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/custlistofstudentsbutton.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/custlistofstudentsbutton.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_spinner_ab_holo_light.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/custsubmitbutton.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/custsubmitbutton.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\drawable\\bg.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_ic_clear_holo_light.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_dark.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_hp_off.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\drawable\\bt_hp_off.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_ab_holo.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_tab_indicator_ab_holo.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_holo_light.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_ic_clear_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/bt_hp_off.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/bt_hp_off.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/customgobutton.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/customgobutton.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/signupbutton.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/signupbutton.png"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_ic_clear.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/signupbuttonpressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/signupbuttonpressed.png"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/custmarkattenancebutton.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/custmarkattenancebutton.xml"
     },
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_light.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_spinner_ab_holo_light.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/bg.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/bg.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/custnewentrybutton.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/custnewentrybutton.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_dark.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_light.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/custloginbutton.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/custloginbutton.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/bt_hp_on.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable/bt_hp_on.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_dark.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_search_dropdown_dark.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_light.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_right_holo_light.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_dark.xml",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_right_holo_dark.xml"
     }
 ]

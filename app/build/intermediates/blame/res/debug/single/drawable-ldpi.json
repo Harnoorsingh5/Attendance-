@@ -1,6 +1,90 @@
 [
     {
-        "merged": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
-        "source": "C:\\Users\\Jassi Singh\\AndroidStudioProjects\\Android-Wifi-Hotspot-Manager-Class1\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/studententry.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/studententry.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/listofstudentsbutton.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/listofstudentsbutton.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/textfieldbg.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/textfieldbg.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/signup.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/signup.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/signupbuttonpressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/signupbuttonpressed.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/login.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/login.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/signupbutton.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/signupbutton.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/gobutton.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/gobutton.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/detailactivity.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/detailactivity.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/gobuttonpressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/gobuttonpressed.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/listofstudentsbuttonpressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/listofstudentsbuttonpressed.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/detailbg.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/detailbg.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/newentrybuttonpressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/newentrybuttonpressed.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/newentrybutton.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/newentrybutton.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/icon.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/attendancelogo.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/attendancelogo.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/submitbuttonpressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/submitbuttonpressed.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/logo.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/logo.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/submitbutton.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/submitbutton.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/markattendance.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/markattendance.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/markattendancebuttonpressed.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/markattendancebuttonpressed.png"
+    },
+    {
+        "merged": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/intermediates/res/merged/debug/drawable-ldpi/selectclasses.png",
+        "source": "/home/harnoor/AndroidStudioProjects/Attendance+ /app/src/main/res/drawable-ldpi/selectclasses.png"
     }
 ]

@@ -3,7 +3,6 @@ package com.whitebyte.hotspotcontrolexample;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -15,8 +14,6 @@ import android.widget.Toast;
 import com.whitebyte.hotspotclients.R;
 import com.whitebyte.wifihotspotutils.Student;
 import com.whitebyte.wifihotspotutils.WifiDatabaseHandler;
-
-import org.w3c.dom.Text;
 
 import java.util.List;
 
@@ -57,12 +54,29 @@ public class InsertStudentData extends Activity {
                 getData();
                 db.addStudentRecord(new Student(studentmac,studentname,studentuid,studentclass),studentclass);
 
-                List<Student> students = db.getAllStudentRecord(studentclass);
-                for(Student sd : students) {
-                    String log = "Mac: " + sd.getMAC() + " ,Name: " + sd.getName() + " ,UID: " + sd.getUID() + ",Class: " + sd.getStudentClass() + " ,Atten: " + sd.getAttendance();
-                    // Writing Contacts to log
-                    Log.d("Name: ", log);
-                    Toast.makeText(InsertStudentData.this,  "Data has been inserted!!! Now you can add more entries", Toast.LENGTH_SHORT).show();
+                studentmac = studentMac.getText().toString();
+                studentname = studentName.getText().toString();
+                studentuid = studentUid.getText().toString();
+                studentclass = studentClass.getText().toString();
+
+                if( studentmac.trim().equals("")) {
+                    studentMac.setError("MAC is required!");
+                }
+                if( studentname.trim().equals("")) {
+                    studentName.setError("UID is required!");
+                }
+                if( studentuid.trim().equals("")) {
+                    studentUid.setError("Name is required!");
+                }
+
+                if(studentMac.getError()==null && studentName.getError()==null && studentUid.getError()==null ) {
+                    List<Student> students = db.getAllStudentRecord(studentclass);
+                    for (Student sd : students) {
+                        String log = "Mac: " + sd.getMAC() + " ,Name: " + sd.getName() + " ,UID: " + sd.getUID() + ",Class: " + sd.getStudentClass() + " ,Atten: " + sd.getAttendance();
+                        // Writing Contacts to log
+                        Log.d("Name: ", log);
+                        Toast.makeText(InsertStudentData.this, "Data has been inserted!!! Now you can add more entries", Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
     });

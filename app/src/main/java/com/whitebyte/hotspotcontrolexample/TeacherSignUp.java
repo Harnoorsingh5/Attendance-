@@ -2,7 +2,6 @@ package com.whitebyte.hotspotcontrolexample;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -128,8 +127,17 @@ public class TeacherSignUp extends Activity {
                         // Writing Contacts to log
                         Log.d("TEACHERE RECOR##### ", log);
                     }
+                    Toast toast = Toast.makeText(getApplicationContext(), "Registered Successfully!!!", Toast.LENGTH_LONG);
+                    toast.show();
+                    Intent intent = new Intent(TeacherSignUp.this,MainActivity.class);
+                    startActivity(intent);
 
                 }
+
+//                Toast toast = Toast.makeText(getApplicationContext(), "Registered Successfully!!!", Toast.LENGTH_LONG);
+//                toast.show();
+//                Intent intent = new Intent(TeacherSignUp.this,MainActivity.class);
+//                startActivity(intent);
 
 //                Log.v("#########CLASSES  :", totalclasseschecked);
             }

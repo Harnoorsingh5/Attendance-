@@ -1,50 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
+    abi="armeabi-v7a,armeabi"
     api-level="23"
-    density="xhdpi"
+    density="xxhdpi"
     format="8"
-    plugin-version="2.2.0"
-    timestamp="305023114816788"
-    token="-7768807520152306439"
-    verifier="COLD_SWAP_REQUESTED" >
+    plugin-version="2.2.2"
+    timestamp="9267031616165"
+    token="-8350993193195048242"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="563" />
+        duration="512" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="55" />
+        duration="273" />
     <task
         name="verifier"
         duration="10" />
 
     <artifact
-        location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
+        location="/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="302412785201344"
+        timestamp="9267031616165"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\outputs\apk\app-debug.apk"
+            location="/home/harnoor/AndroidStudioProjects/Attendance+ /app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="303777707553326"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="305023114816788"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Jassi Singh\AndroidStudioProjects\Android-Wifi-Hotspot-Manager-Class1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

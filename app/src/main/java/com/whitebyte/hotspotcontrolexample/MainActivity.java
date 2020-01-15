@@ -2,22 +2,17 @@ package com.whitebyte.hotspotcontrolexample;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.whitebyte.hotspotclients.R;
-import com.whitebyte.wifihotspotutils.Student;
 import com.whitebyte.wifihotspotutils.Teacher;
 import com.whitebyte.wifihotspotutils.WifiDatabaseHandler;
 
 import java.util.List;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends Activity {
 
@@ -74,7 +69,7 @@ public class MainActivity extends Activity {
                 teacherpassword = teacherPassword.getText().toString();
 
                 if (matchValue(teacherusername, teacherpassword)) {
-                    Toast toast = Toast.makeText(getApplicationContext(), "Yahooooo", Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getApplicationContext(), "SUCCESSFULLY LOGIN!!!", Toast.LENGTH_LONG);
                     toast.show();
 
                     Intent intent = new Intent(MainActivity.this, TeacherClassList.class);
@@ -86,7 +81,7 @@ public class MainActivity extends Activity {
 
 
                 } else {
-                    Toast toast = Toast.makeText(getApplicationContext(), "Gal Ni Bani", Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getApplicationContext(), "INCORRECT PASSWORD!!", Toast.LENGTH_LONG);
                     toast.show();
 
 
